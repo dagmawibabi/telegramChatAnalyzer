@@ -9,7 +9,7 @@ export const Header = () => {
                 <a href="https://dagmawibabi.com">
                     <img className="w-10 h-10 mx-1 bg-zinc-600 hover:bg-zinc-300 rounded-full p-1" alt="socials" src={require("../assets/world-wide-web.png")} />
                 </a>
-                <a href="https://github.com/dagmawibabi">
+                <a href="https://github.com/dagmawibabi/telegramChatAnalyzer">
                     <img className="w-10 h-10 mx-2 bg-zinc-600 hover:bg-zinc-300 rounded-full p-1" alt="socials" src={require("../assets/github.png")} />
                 </a>
                 <a href="https://t.me/dagmawi_babi">
