@@ -312,7 +312,7 @@ export const InputFile = () => {
                 </div>
                 <div className="text-white text-lg mb-10">
                     <span className="block text-3xl mb-3 font-bold"> How to use? </span>
-                    <span className="text-slate-300"> Export a telegram chat in JSON format and upload the file and click "Analyze" below to analyze the data </span>
+                    <span className="text-slate-300"> Export a telegram chat in JSON format and select the file and click "Analyze" below to analyze the data </span>
                 </div>
                 <div className="flex justify-center mb-4">
                     <div className="text-center bg-slate-200 w-fit px-10 py-5  rounded-xl">
@@ -320,7 +320,7 @@ export const InputFile = () => {
                         {/* <input type="text" id="person1Name" placeholder="Person 1 Name" className="block my-2 px-3 py-1 rounded-lg w-72" />
                         <input type="text" id="person2Name" placeholder="Person 2 Name" className="block my-2 px-3 py-1 rounded-lg w-72" /> */}
                         <label htmlFor="fileInput" onChange={getFilePath} className="block mb-2 py-3 w-96 text-white font-bold text-lg bg-slate-800 hover:bg-slate-700 hover:text-green-400 rounded-2xl" >
-                            {fileName !== " " ? fileName : "Upload File"}
+                            {fileName !== " " ? fileName : "Select Chat Export File"}
                             <input id="fileInput" accept=".json" type="file" hidden></input>
                         </label>
                         <button className="block py-3 mb-4 w-96 text-white font-bold text-lg bg-zinc-900 hover:bg-zinc-800 hover:text-orange-500 rounded-2xl" type="button" onClick={startAnalysis}>  {fileName === " " ? "Waiting for export Data" : "Analyze"} </button>
